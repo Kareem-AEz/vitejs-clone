@@ -1,0 +1,110 @@
+:root{
+    --clr-v-dark:#1E1E20;
+
+    --clr-v--dark-20: #252529;
+    --clr-v-dark-40: #313136;
+    --clr-v-dark-60: #2c2c30;
+    --clr-v-dark-highlight: rgba(82, 82, 89, 0.678);
+    
+    
+    --clr-v-light: #DFDFD6;
+    --clr-v-light: #DFDFD6;
+
+    --clr-v-text-1: #fffff5db;
+    --clr-v-text-2: rgb(235 235 245 / 60%);
+
+    --clr-v-violet: #646cff;
+    --clr-v-violet-hover: #747bff;
+    --clr-v-violet-highlight: #747bff;
+    
+
+    --clr-v-gradient: linear-gradient( -45deg, #bd34fe 50%, #47caff 50%);
+    --clr-v-gradient-txt: linear-gradient( -45deg, #bd34fe 10%, #47caff );
+
+    --clr-v-sponsor-button: #db2777;
+    /* Sizes */
+
+    --size-2xs: .5rem;
+    --size-xs: .75rem;
+    --size-sm: .875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+.footer{
+    text-align: center;
+    font-size: var(--size-xs);
+    color: var(--clr-v-text-2);
+    letter-spacing: .4px;
+    padding-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 0px #131212a9;
+}
+.footer__content{
+    z-index: 500;
+}
+.footer_bg-img{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    translate: -50% -85%;
+    z-index: -1
+}
+.footer_bg-img img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    
+    
+    
+    rotate: 25deg;
+    filter: blur(38px);
+    
+
+}
+
+.footer svg{
+    fill: var(--clr-v-text-1);
+    display: inline;
+    height: 8px;
+}
+
+.footer__me-sec{
+    margin-top: 1rem;
+}
+.footer__me-sec a{
+    margin-top: 1rem;
+    border-bottom: 1px solid #ff8551;
+    color: #ff8551;
+    font-weight: 500;
+}
+
+
+.footer_bg-img-2{
+    height: 90px;
+    width: 90px;
+    color: wheat;
+    background-image: var( --clr-v-gradient);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    translate: 50% -50%;
+    z-index: -1;
+    filter: blur(36px);
+    opacity: 0.3;
+}
