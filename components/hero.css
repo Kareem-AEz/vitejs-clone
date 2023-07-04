@@ -79,7 +79,7 @@
 .hero__button h4{
     font-size: var(--size-sm);
     font-weight: 500;
-    color: #f4dcff40;
+    color: #be34fe89;
     position: absolute;
     translate: calc(50% + 9px) 8px;
 }
