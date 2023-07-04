@@ -75,6 +75,15 @@
     height: 100%;
 }
 
+/* get started redirect */
+.hero__button h4{
+    font-size: var(--size-sm);
+    font-weight: 500;
+    color: #be34fe89;
+    position: absolute;
+    translate: calc(50% + 9px) 8px;
+}
+
 /* hero image part */
 .hero__img{
     display: flex;
