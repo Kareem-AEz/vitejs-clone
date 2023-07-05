@@ -184,6 +184,10 @@
         justify-content: flex-end;
         transition: all .25s;
     }
+    .header__burger-icon{
+        display: flex;
+        width: 24px;
+    }
 }
 /* xl */
 @media (max-width: 1280px){
