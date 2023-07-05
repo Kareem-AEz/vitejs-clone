@@ -49,7 +49,7 @@
     user-select: none;
     margin-top: var(--size-5xl);
     text-align: center;
-    color: var(--clr-v-text-2);
+    
 }
 .sponsors__sec-header-wrapper{
     display: inline-block;
@@ -91,7 +91,7 @@
 /* sponsors tiles */
 .sponsors__tiles{
     margin-top: 1.3rem;
-    color: var(--clr-v-text-2);
+    opacity: .6;
     border-radius: 12px;
     overflow: hidden;
     

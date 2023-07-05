@@ -83,7 +83,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+::selection{
+    background-color: #415c67;
+    color: #84e0ff;
+}
 
+.hero__text span::selection{
+    background-image: white;
+    -webkit-text-fill-color: #84e0ff;
+}
 
 /* responsivness section */
 .container{
@@ -104,6 +112,7 @@
     transition: all .25s;
     
 }
+
 
 /* xs */
 @media (min-width: 475px){

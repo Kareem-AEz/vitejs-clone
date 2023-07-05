@@ -1,0 +1,191 @@
+.app{
+    background-color: var(--clr-v-dark);
+    color:var(--clr-v-light) ;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Rubik', sans-serif;
+    min-width: 420px;
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked){
+    background-color: #f3f3f3;
+    color: var(--clr-v-dark);
+}
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .header__make-search{
+    background-color: #dcdcdc;
+    color: var(--clr-v-dark);
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) a{
+    color: var(--clr-v-dark);
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .alt:hover{
+    background-color: #aaaaaa;
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) svg{
+    fill: var(--clr-v-dark);
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .items__item{
+    background-color: #dcdcdc;
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .items__item-icon{
+    background-color: #b2b2b2;
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .sponsors__sec-header-wrapper:hover .sponsors__sec-header-fig svg,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .sponsors__sec-header-wrapper:hover .sponsors__sec-title{
+    color: #F05A1F;
+    fill: #F05A1F;
+    opacity: 1;
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .section-separator{
+    border-top: 2px solid #d1d1d1;
+}
+
+
+/* sponsors */
+/* special */
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .special-sponsors-header,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .special-sponsors-header h3,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .special-sponsors-tile{
+    color: var(--clr-v-dark);
+    background-color: #dcdcdc;
+    border-bottom-color: #d1d1d1;
+}
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .special-sponsors-tile:hover{
+    background-color: #979797;
+}
+
+/* platinum */
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .platinum-sponsors-header,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .platinum-sponsors-header h3,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .platinum-sponsors-tile{
+    color: var(--clr-v-dark);
+    background-color: #dcdcdc;
+    border-bottom-color: #d1d1d1;
+}
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .platinum-sponsors-tile:hover{
+    background-color: #979797;
+}
+
+/* gold */
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .gold-sponsors-header,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .gold-sponsors-header h3,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .gold-sponsors-tile{
+    color: var(--clr-v-dark);
+    background-color: #dcdcdc;
+    border-bottom-color: #d1d1d1;
+}
+
+
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .gold-sponsors-tile:hover{
+    background-color: #979797;
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .empty-gold:hover,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .empty:hover{
+    background-color: #dcdcdc;
+    pointer-events: none;
+}
+
+/* buttons */
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .sponsor{
+    border-color:  var(--clr-v-dark);
+}
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .sponsor:hover{
+    border: 1px solid var(--clr-v-sponsor-button);
+    color: var(--clr-v-sponsor-button);
+}
+
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .footer{
+    color: var(--clr-v-dark);
+} 
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .footer__me-sec a{
+    border-bottom: 1px solid #4C5DFF;
+    color: #4C5DFF;
+} 
+
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .footer__made-with-love:hover h5,
+.app:has(.header .header__content .header__mode .header__mode-wrapper .dark-mode-toggle:checked) .footer__made-with-love:hover svg{
+    fill: #F05A1F;
+    color: #F05A1F;
+}
+
+/* check box styling */
+
+.dark-mode-toggle {
+    display: none;
+    position: absolute;
+    
+  }
+  
+  .toggle-label {
+    display: inline-block;
+    width: 40px;
+    height: 18px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+    
+    }
+  
+  
+  .toggle-label::before {
+    content: '';
+    position: absolute;
+    top: 1.8px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #b1b1b1;
+    transition: transform 0.2s;
+    background-image: url(../Assets/sun.png);
+    background-size: cover;
+  }
+  
+  .dark-mode-toggle:checked + .toggle-label {
+    background-color: #3b3939;
+  }
+  
+  .dark-mode-toggle:checked + .toggle-label::before {
+    transform: translateX(20px);
+    background-color: rgb(190, 190, 190);
+
+  }
+  
+
+/* dark mode option */
+.header__mode{
+    flex-basis: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__mode a:checked {
+    color: #1E1E20;
+}
+
+
+
+/* checkbox */
+.header__mode-fig-wrapper{
+    fill: var(--clr-v-light);
+    width: 16px;
+}
+
+.header__mode-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

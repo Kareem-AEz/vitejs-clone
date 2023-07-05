@@ -54,7 +54,7 @@
 .hero__tagline{
     padding-top: 36px;
     font-size: var(--size-2xl);
-    color: var(--clr-v-text-2);
+    opacity: .8;
     font-weight: 500;
     max-width: 540px;
     transition: all .25s;
@@ -64,6 +64,7 @@
 /* buttons */
 
 .hero__buttons{
+    user-select: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -76,13 +77,20 @@
 }
 
 /* get started redirect */
-.hero__button h4{
+.hero__button-get-started-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__button-get-started-wrapper h4{
     font-size: var(--size-sm);
     font-weight: 500;
-    color: #be34fe89;
     position: absolute;
-    translate: calc(50% + 9px) 8px;
+    opacity: .4;
+    translate: 0 -16px ;
 }
+
 
 /* hero image part */
 .hero__img{

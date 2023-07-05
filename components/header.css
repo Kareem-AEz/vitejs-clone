@@ -121,6 +121,7 @@
     fill: var(--clr-v-text-1);
 }
 
+
 /* vbar responsivness */
 .vbnav-container{
     width:100%;
@@ -142,16 +143,20 @@
     }
 } */
 /* sm */
-/* @media (max-width: 640px){
-    .container{
-        max-width: 640px;
+@media (max-width: 640px){
+    .header__socials{
+        display: none;
     }
-} */
+}
 /* md */
 @media (max-width: 768px){
-    .header__content{
+    .header__search-section,
+    .header__contents-section{
         display: none;
         transition: all .25s;
+    }
+    .header__content{
+        justify-content: flex-end;
     }
     .header__burger-icon{
         display: flex;

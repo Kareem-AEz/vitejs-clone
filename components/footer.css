@@ -52,7 +52,8 @@
     box-shadow: 0px 0px 20px 0px #131212a9;
 }
 .footer__content{
-    z-index: 500;
+    position: relative;
+    z-index: 1;
 }
 .footer_bg-img{
     width: auto;
@@ -94,17 +95,31 @@
     font-weight: 500;
 }
 
-
+.footer__made-with-love{
+    user-select: none;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.footer__made-with-love  svg{
+    transition: all 0.3s;
+}
+.footer__made-with-love h5{
+    display: inline-block;
+    transition: all 0.3s;
+}
+.footer__made-with-love:hover h5,
+.footer__made-with-love:hover svg{
+    fill: var(--clr-v-sponsor-button);
+    color: var(--clr-v-sponsor-button);
+}
 .footer_bg-img-2{
     height: 90px;
     width: 90px;
-    color: wheat;
     background-image: var( --clr-v-gradient);
     position: absolute;
     top: 50%;
     right: 50%;
     translate: 50% -50%;
-    z-index: -1;
     filter: blur(36px);
-    opacity: 0.3;
+    opacity: 0.6;
 }

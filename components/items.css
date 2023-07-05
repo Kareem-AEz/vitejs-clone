@@ -64,11 +64,11 @@
 /* header */
 .items__item-content h5{
     padding-bottom: 8px;
-    color: var(--clr-v-text-1);
+    
 }
 /* body */
 .items__item-content p{
-    color: var(--clr-v-text-2);
+    opacity: .6;
 }
 
 /* item- content */
